@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* this ia an element selector. */
+      /* div{
+          background-color: blue;
+      } */
+
+      /* Class selector */
+      .green {
+        background-color: green;
+      }
+
+      /* Id selector */
+      #blue {
+        background-color: blue;
+      }
+
+      /* Child Selector */
+      div > p {
+        background-color: black;
+        color: yellowgreen;
+      }
+
+      /* Descendant Selector */
+      div p {
+        background-color: black;
+        color: yellowgreen;
+      }
+
+      /* Universal Selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Pseudo Selector */
+      a:visited {
+        color: pink;
+      }
+
+      a:link {
+        color: black;
+      }
+
+      a:active {
+        background-color: red;
+      }
+
+      a:hover {
+        background-color: brown;
+      }
+
+      p:first-child{
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="one">
+      <p>first</p>
+      <p>second</p>
+    </main>
+    <div class="tmg">I am a selector</div>
+    <div class="green">
+     
+      This is written inside a div tag.
+      <article>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+          aperiam consequatur atque.
+        </p>
+      </article>
+    </div>
+    <div id="blue">div tag.</div>
+    <a href="https:/www.google.com" target="_blank">Go to Google</a>
+    <a href="https:/www.facebook.com">Go to facebook</a>
+  </body>
+</html>
