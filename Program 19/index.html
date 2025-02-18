@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Fonts,Texts Properties</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Noto+Sans+TC:wght@100..900&display=swap");
+
+      h1 {
+        text-align: center;
+        font-family: cursive;
+        letter-spacing: 60px;
+      }
+
+      p {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-family: "Roboto", serif;
+        font-size: 20px;
+        line-height: 40px;
+
+        /* font-weight: 500;
+            text-decoration: overline; */
+      }
+
+      h2 {
+        font-family: "Grechen Fuemen", serif;
+      }
+      h3 {
+        text-transform: capitalize;
+        text-decoration: underline;
+        text-decoration-color: blueviolet;
+        /* text-decoration-style: dashed; */
+        text-decoration-thickness: 26px;
+        /* text-indent: 45px; */
+      }
+      
+      .lorem{
+        border: 2px solid red;
+        width:45px ;
+        text-overflow: ellipsis;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Fonts</h1>
+
+      <p>This is a paragraph.</p>
+
+      <p class="Lorem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        explicabo dolores velit, nobis autem reiciendis ullam temporibus
+        incidunt enim placeat officia omnis, dolorem est. Quasi, vitae
+        reprehenderit placeat rem totam amet ipsam.
+      </p>
+
+      <h2>Fonts and texts</h2>
+
+      <h3>paragraph hi how are you</h3>
+    </div>
+  </body>
+</html>
