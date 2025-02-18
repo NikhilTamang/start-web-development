@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <style>
+        /* #black{
+            background-color: black;
+        } */
+        h1{
+            background-color: greenyellow;
+        }
+
+        .zyellow{
+            background-color: rgb(63, 100, 6) !important;
+        }
+
+        .zblue{
+            background-color: rgb(209, 115, 8);
+        }
+
+        .zred{
+            background-color: rgb(192, 36, 109);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: gray;" id="black" class="zyellow zblue zred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis cum accusantium iure accusamus molestiae a, architecto consectetur nihil? Repellendus, totam aperiam. Facere.</h1>
+</body>
+</html>
