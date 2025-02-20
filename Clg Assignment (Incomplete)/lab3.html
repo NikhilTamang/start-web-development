@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <section>
+      <form action="action.php">
+        <fieldset>
+          <legend>Registration Form</legend>
+
+          <p>
+            <label for="name"> First name:</label>
+            <input
+              type="text"
+              id="name"
+              name="firstname"
+              placeholder="Enter your name."
+              required
+            />
+          </p>
+
+          <p>
+            <label for="lastname">Last name:</label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Enter your  Last name."
+              required
+            />
+          </p>
+          <hr />
+          <p>Select your gender:</p>
+          <input type="radio" value="male" id="male" name="gender" required />
+          <label for="male">Male</label>
+
+          <input
+            type="radio"
+            value="female"
+            id="female"
+            name="gender"
+            required
+          />
+          <label for="female">Female</label>
+
+          <hr />
+
+          <p>Interest:</p>
+          <input type="checkbox" name="music" id="music" value="yes" />
+          <label for="music">Music</label>
+
+          <input
+            type="checkbox"
+            name="literature"
+            id="literature"
+            value="yes"
+          />
+          <label for="literature">Literature</label>
+
+          <input type="checkbox" name="sports" id="sports" value="yes" />
+          <label for="sports">Sports</label>
+
+          <input type="checkbox" name="song" id="song" value="yes" />
+          <label for="song">Song</label>
+
+          <hr />
+          <p>Date of Birth:</p>
+
+          <label for="dob">DOB:</label>
+          <input type="date" name="dob" id="dob" />
+
+          <hr />
+
+          <p>Faculty:</p>
+          <select name="faculty" id="faculty" required>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="BSW">BSW</option>
+          </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
