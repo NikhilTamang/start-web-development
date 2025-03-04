@@ -1,0 +1,44 @@
+:root{
+    --color:rgb(224, 28, 103);
+    --seccolor:rgb(100, 100, 236);
+    --defpad:23px;
+    --defop:0.5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: var(--color);
+}
+/* 
+.nav{
+    background-color: green;
+} */
+
+ul{
+    display: flex;
+}
+
+ul li{
+    opacity: var(--defop);
+    list-style: none;
+    padding: 34px;
+    border: 12px solid var(--seccolor);
+}
+
+ul li:first-child{
+    --seccolor:rgb(42, 223, 223);
+    background-color: var(--seccolor);
+
+}
+
+.container{
+    background-color: var(--seccolor);
+}
+
+/* .container{
+    background-color: greenyellow;
+} */
