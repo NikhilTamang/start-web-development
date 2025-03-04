@@ -1,0 +1,19 @@
+img{
+    float: left;
+}
+
+.cards{
+    border: 3px solid black;
+    display: flow-root;
+
+}
+
+.card{
+    border: 3px solid greenyellow;
+
+}
+
+.card:nth-child(3){
+    clear: left;
+
+}
