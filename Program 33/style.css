@@ -1,0 +1,36 @@
+:root {
+    --color:blue;
+    --seccolor: greenyellow;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgb(23, 66, 66);
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+}
+
+ul li{
+    list-style: none;
+    padding: 30px;
+    margin: 20px;
+    background-color: var(--color);
+    border-radius: 40px;
+}
+
+ul li:first-child{
+    
+    background-color: var(--seccolor);
+    
+}
+
+ul li:last-child{
+    border: 7px solid var(--seccolor);
+}
+
