@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --primary-color: rgb(174, 212, 174);
+    --secondary-color: aqua;
+    --text-color:rgb(61, 165, 104);
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    color: var(--secondary-color);
+    background-color: var(--text-color);
+}
+ul{
+    display: flex;
+    gap: 500px;
+    background-color: var(--primary-color);
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--secondary-color);
+}
+
