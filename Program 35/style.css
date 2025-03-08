@@ -1,0 +1,51 @@
+/* .box:first-child{
+    background-color: yellow;
+} */
+/* .box:first-line{
+    background-color: green;
+}
+.boxes *{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid yellow;
+    color: red;
+}
+
+div,.box,[data-color="primary" ]{
+    margin-bottom: 50px;
+    padding: 50px;
+} */
+
+/* .box:nth-child(even){
+    background-color: blue;
+} */
+
+/* .box:nth-last-child(3){
+    background-color: yellowgreen;
+} */
+
+.boxes::before{
+    content: "nikhil bro k xa khabar";
+    color: green;
+}
+
+.boxes::after{
+    content: "thik xa yr mero khabar";
+    color: blue;
+}
+
+::selection{
+    color:aqua;
+    background-color: black;
+}
+
+.box::first-letter{
+    color:rgb(255, 47, 238);
+    font-size: 50px;
+}
+
+input::placeholder{
+    background-color: red;
+    color: purple;
+}
+
