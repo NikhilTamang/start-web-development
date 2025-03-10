@@ -1,0 +1,36 @@
+.container{
+
+    border: 2px solid black;
+    height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    align-content: flex-start;
+    gap: 5px 9px;
+
+}
+
+.item{
+    flex-grow: 1;
+    height: 52px;
+    width: 52px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* margin: 4px ; */
+    text-align: center;
+}
+
+.order-1{
+    flex-grow: 6;
+    order:1;
+}
+.order-2{
+    order:2;
+}
+.order-3{
+    order:3;
+}
