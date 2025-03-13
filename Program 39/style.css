@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns:[col-1]90px [col-2]100px [col-3]90px;
+    grid-template-rows: 100px 100px 100px;
+
+}
+.items{
+    border: 2px solid yellowgreen;
+    /* width: 55px; */
+    /* height: 55px; */
+}
+
+/* .item-3{
+    grid-row: 1/2;
+    grid-column: 1/2;
+} */
+
+.item-3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: col-1;
+    grid-column-end: 3;
+    border-radius: 12px;
+}
