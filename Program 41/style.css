@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2px;
+}
+header ul{
+display: flex;
+list-style: none;
+justify-content: end;
+padding: 10px;
+margin:10px;
+gap: 20px;
+
+}
+
+#search{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 50px;
+    border-radius: 50%;
+}
