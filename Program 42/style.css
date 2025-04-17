@@ -1,0 +1,27 @@
+.container{
+    height: 80vh;
+    width: 100vw;
+    border: 2px solid brown;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transform: rotate(0.55turn);
+    transform: rotate(45deg); */
+
+    /* transform: rotateX(10deg);
+    transform: rotateY(100deg); */
+
+    /* transform: scale(2);
+    transform: skew(5deg); */
+
+
+    transform: translateX(100px);
+}
