@@ -1,0 +1,22 @@
+.logo {
+  width: 132px;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.right ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.arr img{
+    width: 10px;
+}
