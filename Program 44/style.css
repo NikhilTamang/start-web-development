@@ -43,39 +43,39 @@ a {
 }
 
 .grid {
-    gap: 25px;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    justify-content: center;
+  gap: 25px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
 }
 .items {
-    background-color: rgba(233, 236, 239, 0.5); 
+  background-color: rgba(233, 236, 239, 0.5);
   justify-items: center;
 }
-.heading{
-    font-size: larger;
-    margin-bottom: 67px;
+.heading {
+  font-size: larger;
+  margin-bottom: 67px;
 }
 .download-button {
-    text-align: center;
-    background-color: #6B9E3D;
-    border-radius: 9px;
+  text-align: center;
+  background-color: #6b9e3d;
+  border-radius: 9px;
 }
-.download-button a{
-    font-weight: bolder;
-    color: white;
-    font-size: smaller;
-    padding: 8px;
-    text-decoration: none;
+.download-button a {
+  font-weight: bolder;
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  text-decoration: none;
 }
 .small-text {
-    line-height: 0.2; 
-    font-size: 7px;
+  line-height: 0.2;
+  font-size: 7px;
 }
-.language{
-    font-size: larger;
-    margin-bottom: 25px;
+.language {
+  font-size: larger;
+  margin-bottom: 25px;
 }
-.medium{
-    font-size: small;
+.medium {
+  font-size: small;
 }
