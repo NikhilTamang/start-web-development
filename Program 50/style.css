@@ -1,0 +1,14 @@
+img{
+    filter: blur(px);
+    height: 70vh;
+}
+.img1{
+    filter: brightness(220%) contrast(100%);
+}
+.img2{
+    filter: grayscale(100%) invert(10);
+}
+.img3{
+    filter: sepia(100%);
+    filter: opacity(0.5);
+}
