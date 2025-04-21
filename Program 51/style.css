@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  /* margin: auto; */
+  background-color: blue;
+}
+
+.ball {
+  border: 2px solid black;
+  height: 121px;
+  width: 121px;
+  background-image: url("https://imgs.search.brave.com/PWwtLrtTozu3Q4PCbNZAUi1uYqA9AeuXfDLKyzzk-bk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzE3MTA4MTk1L2Mv/MTgzNi8xODM2LzUy/NS81NC9pbC9kNDk5/NWQvMzc4MTMwODg0/OS9pbF82MDB4NjAw/LjM3ODEzMDg4NDlf/amQ4My5qcGc");
+  /* background-color: red; */
+  border-radius: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  animation: x-axis 5s linear infinite, y-axis 1s ease-out infinite alternate;
+}
+
+@keyframes x-axis {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes y-axis {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 75%;
+  }
+}
