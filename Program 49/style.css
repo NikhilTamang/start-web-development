@@ -1,0 +1,17 @@
+.container {
+  height: 80vh;
+  width: 90vw;
+  background-color: rgb(99, 228, 228);
+  border: 2px solid black;
+  /* background-position: center center; */
+  background-image: url("https://imgs.search.brave.com/v7HWPxGZEsPbOWGwcIaGNybSi655Ib3P73NUnl_VKgc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hcnRl/dmVudWUuY29tL3N0/YXRpYy9pbWFnZV9k/YXRhL1BPRC9pbWFn/ZXMvMzNfVjY5OURf/bG93cmVzLmpwZw");
+  background-repeat: no-repeat;
+}
+img {
+  width: 250px;
+  height: 150px;
+  /* object-fit: contain; */
+  /* object-position:  10px 20px; 
+    object-fit: cover; */
+  /* object-fit: fill; */
+}
