@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/imgs/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 90vh;
+  position: relative;
+}
+.box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  max-width: 78vw;
+  margin: auto;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 135px;
+  position: relative;
+  z-index: 10;
+  margin-top: 10px;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+  gap: 23px;
+}
+.hero > :nth-child(1) {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+.hero > :nth-child(2) {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  margin-top: -23px;
+}
+.hero > :nth-child(3) {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.hero > :nth-child(4) {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+.separation {
+  height: 7px;
+  background-color: #d9d9d9;
+}
+.btn {
+  padding: 4px 10px;
+  font-weight: 500;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.eng-btn {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 4px 26px;
+}
+.sign-btn {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+  padding: 4px 26px;
+}
+.red-btn {
+  background-color: red;
+  color: white;
+  padding: 11px 21px;
+  font-size: 20px;
+}
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.hero input {
+  padding: 14px 163px 14px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 75vw;
+  height: 80vh;
+  margin: auto;
+  gap: 20px;
+}
+
+.sec-img {
+  position: relative;
+}
+.sec-img :first-child {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.sec-img img:last-child {
+  width: 29vw;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.sec-img1 img {
+  width: 30vw;
+}
+.sec-img :first-child {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+.sec-img2 img:last-child {
+  width: 18vw;
+  position: absolute;
+  top: 22px;
+  right: 85px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.flex-col :first-child {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 49px;
+}
+.flex-col :last-child {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+
+.fourth{
+    gap: 83px;
+}
