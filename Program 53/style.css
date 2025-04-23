@@ -6,6 +6,7 @@
 }
 body {
   background-color: black;
+  color: white;
 }
 .main {
   background-image: url("assets/imgs/bg.jpg");
@@ -30,6 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* padding: 16px 0px; */
 }
 nav img {
   width: 135px;
@@ -74,9 +76,15 @@ nav button {
   font-size: 16px;
   font-weight: 300;
 }
+.hero-2 :first-child {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
 .separation {
-  height: 7px;
-  background-color: #d9d9d9;
+  height: 5px;
+  background-color: #2f2f2f;
 }
 .btn {
   padding: 4px 10px;
@@ -126,7 +134,7 @@ nav button {
   align-items: center;
   color: white;
   max-width: 75vw;
-  height: 80vh;
+  height: 65vh;
   margin: auto;
   gap: 20px;
 }
@@ -180,6 +188,60 @@ nav button {
   letter-spacing: 1.2px;
 }
 
-.fourth{
-    gap: 83px;
+.fourth {
+  gap: 83px;
+}
+.faq {
+  padding: 34px;
+}
+.faq h3 {
+  text-align: center;
+  margin: 25px;
+  font-size: 45px;
+}
+.faq-box:hover {
+  background-color: #4a4a4a;
+}
+.faq-box {
+  font-size: 1.2em;
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+
+  background-color: #2e2e2e;
+  max-width: 70vw;
+  margin: 8px auto;
+  cursor: pointer;
+}
+footer {
+  font-size: 0.9em;
+  max-width: 70vw;
+  margin: 30px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer {
+  font-size: 0.8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 70vw;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 530px) {
+  .footer {
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70vw;
+    margin: 40px auto;
+    gap: 20px;
+  }
+}
+.footer-item {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
