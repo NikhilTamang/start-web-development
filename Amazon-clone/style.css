@@ -61,8 +61,8 @@
   border-radius: 4px;
 }
 
-.nav-search:hover{
-    border: 2px solid orange;
+.nav-search:hover {
+  border: 2px solid orange;
 }
 .select-search {
   background-color: #e6e6e6;
@@ -116,11 +116,11 @@
 }
 
 /* for box-4 and box-5*/
-.nav-signin{
-    height: 2.8125rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.nav-signin {
+  height: 2.8125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .nav-signin span {
   font-size: 0.7rem;
@@ -131,36 +131,213 @@
   font-weight: 700;
 }
 
-
 /* box-6 */
-.nav-cart{
-    display: flex;
-    align-items: end;
-    
+.nav-cart {
+  display: flex;
+  align-items: end;
 }
-.nav-cart i{
-    font-size: 1.875rem;
-    
+.nav-cart i {
+  font-size: 1.875rem;
 }
 
 /* for panel */
-.panel{
-    height: 2.5rem;
-    background-color: #232f3e;
-    display: flex;
-    color: #ffffff;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 0.85rem;
+.panel {
+  height: 2.5rem;
+  background-color: #232f3e;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 0.875rem;
 }
-.panel-opps{
-    width: 78%;
-    font-size: 0.85rem;
+
+.panel-opps {
+  width: 78%;
+  font-size: 0.875rem;
 }
-.panel-opps span{
-    margin-left: 0.625rem;
+
+.panel-opps span {
+  margin-left: 0.625rem;
 }
-.panel-deals{
-    font-size: 0.9rem;
-    font-weight:700 ;
+
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* for hero-section */
+
+.hero-section {
+  background-image: url(assets/hero-img.jpg);
+  height: 22rem;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero-msg {
+  background-color: white;
+  color: rgb(7, 7, 7);
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  font-size: 0.875rem;
+  overflow: hidden;
+  margin-bottom: 1.5625rem;
+}
+
+.hero-msg a {
+  text-decoration: none;
+  color: #007185;
+}
+
+/* for shop-section */
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #e2e7e6;
+}
+
+.box {
+  /* border: 2px solid black; */
+  height: 22.5rem;
+  width: 22%;
+  background-color: #ffffff;
+  padding: 20px 0px 15px;
+  margin-top: 1rem;
+}
+
+.box-img {
+  height: 15.625rem;
+  /* background-position: center center; */
+  background-size: cover;
+  margin: 1rem 0rem;
+  background-repeat: no-repeat;
+}
+
+.box-img1 {
+  background-image: url(assets/box1_image.jpg);
+}
+
+.box-img2 {
+  background-image: url(assets/box2_image.jpg);
+}
+
+.box-img3 {
+  background-image: url(assets/box3_image.jpg);
+}
+
+.box-img4 {
+  background-image: url(assets/box4_image.jpg);
+}
+
+.box-img5 {
+  background-image: url(assets/box5_image.jpg);
+}
+
+.box-img6 {
+  background-image: url(assets/box6_image.jpg);
+}
+
+.box-img7 {
+  background-image: url(assets/box7_image.jpg);
+}
+
+.box-img8 {
+  background-image: url(assets/box8_image.jpg);
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content h2 {
+  font-size: 1.3125rem;
+  color: #0f1111;
+}
+
+.box-content p {
+  font-size: 0.8125rem;
+  color: #007185;
+  cursor: pointer;
+}
+
+/* for footer */
+
+.foot-1 {
+  background-color: #37475a;
+  color: #ffffff;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot-2 {
+  background-color: #232f3e;
+  color: #ffffff;
+  height: 25rem;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-top: 3rem;
+}
+
+ul p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+ul a {
+  display: block;
+  margin-top: 0.9rem;
+  cursor: pointer;
+  color: #dddddd;
+}
+
+.foot-3 {
+  background-color: #232f3e;
+  color: #ffffff;
+  border-top: 1px solid #3a4553;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 4.25rem;
+}
+
+.border-anytime {
+  border: 1px solid #848688;
+  border-radius: 2px;
+  padding: 0.5rem 1.3rem 0.5rem 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+
+.foot-4 {
+  background-color: #131a22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 4.6875rem;
+  justify-content: center;
+  color: #dddddd;
+  font-size: 0.75rem;
+  gap: 5px;
+}
+
+.foot-opps1 {
+  display: flex;
+  gap: 1.2rem;
 }
