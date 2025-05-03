@@ -4,4 +4,4 @@ let info = {
     "marks" : "3.88 GPA"
 }
 
-console.log(info);
+console.log(info)
