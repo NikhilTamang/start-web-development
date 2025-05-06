@@ -30,7 +30,7 @@ function divide(a, b) {
   }
 }
 
-// generate two random numbers and print them
+// generate two random numbers and print them.
 let x = Math.random();
 let y = Math.random();
 
