@@ -42,9 +42,8 @@ let z = [7, 8, 9];
 let concat = x.concat(y, z);
 console.log(`The concated output is: ${concat}`);
 
-
-let unorganized = [2,34 ,21,1, 9, 83]
-console.log(`The sorted array is: ${unorganized.sort()}`)
+let unorganized = [2, 34, 21, 1, 9, 83];
+console.log(`The sorted array is: ${unorganized.sort()}`);
 
 // This is the syntax for splice()
 // array.splice(start, deleteCount, item1, item2, ...);
@@ -52,10 +51,9 @@ let arr2 = [1, 2, 3, 4, 5];
 arr2.splice(1, 2, 6, 7); // Replaces 2 elements starting at index 1 with 6 and 7
 console.log(arr2); // [1, 6, 7, 4, 5]
 
+const num = [2, 3, 4, 5];
+console.log(num.slice(2));
+console.log(num.slice(0, 3));
+console.log(num);
 
-const num = [2,3,4,5]
-console.log(num.slice(2))
-console.log(num.slice(0,3))
-console.log(num)
-
-console.log(num.reverse())
+console.log(num.reverse());
