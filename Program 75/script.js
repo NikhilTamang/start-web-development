@@ -16,7 +16,7 @@ const callback = (arg) => {
 const loadScript = (src, callback) => {
   let sc = document.createElement("script");
   sc.src = src;
-  sc.onload = callback("Nikhil");
+  sc.onload = () => callback("Nikhil");
   document.head.append(sc);
 };
 
